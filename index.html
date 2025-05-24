@@ -1,31 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Expanding Cards</title>
-  </head>
-  <body>
+    <title>Info Jogos</title>
+</head>
+<body>
     <div class="container">
-      <div class="panel active" style="background-image: url('img\ painel.png')">
-        <h3>Jogos</h3>
-      </div>
-      <div class="panel" style="background-image: url('img\ mine.png')">
-        <h3>Minecraft</h3>
-      </div>
-      <div class="panel" style="background-image: url('img\ valorant.png')">
-        <h3>Valorant</h3>
-      </div>
-      <div class="panel" style="background-image: url('img\ cs.png')">
-        <h3>Counter Strike</h3>
-      </div>
-      <div class="panel" style="background-image: url('https://images.unsplash.com/photo-1549880338-65ddcdfd017b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
-        <h3>League Of Legends</h3>
-      </div>
-
+        <div class="panel active" style="background-image: url('img\ painel.png')">
+            <h3>Jogos</h3>
+        </div>
+        
+        <div class="panel" style="background-image: url('img\ 2\ minecraft.avif')">
+            <h3>Minecraft <button class="saiba-mais" data-game="minecraft">Saiba Mais</button></h3>
+        </div>
+        
+        <div class="panel" style="background-image: url('img\ valorant\ 2.jpg')">
+            <h3>Valorant <button class="saiba-mais" data-game="valorant">Saiba Mais</button></h3>
+        </div>
+        
+        <div class="panel" style="background-image: url('imagem\ csgo.jpg')">
+            <h3>Counter Strike <button class="saiba-mais" data-game="cs">Saiba Mais</button></h3>
+        </div>
+        
+        <div class="panel" style="background-image: url('lol\ img.jpg')">
+            <h3>League Of Legends <button class="saiba-mais" data-game="lol">Saiba Mais</button></h3>
+        </div>
     </div>
 
     <script src="script.js"></script>
-  </body>
+
+    <style>
+    body { 
+        font-family: Arial, sans-serif;
+        padding: 20px;
+        background-color: #050505; /* Aqui você define a nova cor de fundo */
+    }
+    h1 { color: #333; }
+    p { line-height: 1.6; }
+    .download-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: black;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    } 
+</body>
+
 </html>
